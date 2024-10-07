@@ -1,0 +1,197 @@
+body {
+    font-family: "Oswald", sans-serif;
+    color: rgb(133, 127, 127);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header_conteneur {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-image: url(misc/grille.png);
+    padding: 0.5;
+}
+
+#image_header {
+    margin: 2%;
+    align-content: center;
+}
+
+.class_1 {
+    margin: 5%;
+    padding: 7%;
+    width: 85%;
+}
+
+.class_1 > h1{
+    margin: 3%;
+    font-size: large;
+    font-weight: 700 
+}
+
+.class_1 > p {
+    margin: 0.5%;
+}
+
+.class_1 > p > a {
+    color: rgb(133, 127, 127);
+    text-decoration: none;
+    font-size:small;
+}
+
+.menu_header{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    
+}
+
+.five {
+    width: 100%
+}
+
+.separator {
+    width: 100%;
+    margin: 10px 0; 
+}
+
+.red{
+border-top: 5px solid rgb(204, 39, 39);
+width: 100%
+}
+
+.wellow{
+    border-top: 5px solid rgb(234, 220, 35);
+}
+
+.green{
+    border-top: 5px solid rgb(83, 190, 44);
+}
+
+.blue{
+    border-top: 5px solid rgb(47, 42, 187);
+}
+
+.purple{
+    border-top: 5px solid rgb(161, 33, 163);
+}
+
+
+
+
+
+
+
+main > div > div >h1{
+    color: rgb(244, 144, 72);
+}
+
+.class_2 >  a {
+    color: rgb(133, 127, 127);
+    text-decoration: none;
+}
+
+#video{
+    margin: 2%;
+    text-align: center;
+    position: relative;
+}
+
+#etoiles {
+    font-family: "PT Serif", serif;
+    text-align: center;
+    background-image: url(misc/grille.png);
+    padding: 0.7%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+
+}
+
+.main_conteneur {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: 24% 24% 32%;
+    grid-template-rows: 300px 300px;
+    gap: 2%;
+
+}
+
+.un {
+    grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start:1;
+    grid-row-end: 3;
+    
+}
+
+
+.quatre {
+    grid-column-start:3;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+
+.images_main{
+
+    grid-column-start:3;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+
+
+
+
+.footer_conteneur{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2% ;
+    gap: 3%;
+    justify-content: center;
+    align-content:space-around;
+    flex-wrap: wrap;
+    background-image: url(misc/grille.png);
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.footer_conteneur2{
+    margin-top: 1%;
+}
+
+#footer_liens{
+    display:flex;
+    flex-direction: row;
+}
+
+#footer_liens > p{
+    margin:0.4%;
+    padding: 4px;
+    border-right: 2px #b3b3b3 solid;
+    align-items: center;
+    justify-content: baseline;
+}
+
+#footer_liens > p > a {
+    color: rgb(133, 127, 127);
+}
+
+#boutons_footer{
+    text-align: end;
+}
+
+.class_3 > h1 {
+    font-size: medium;
+    font-weight: 550;
+}
+
+.class_3 > p > a {
+    color: rgb(133, 127, 127);
+}
+
+.italique {
+    font-style: italic ;
+}
